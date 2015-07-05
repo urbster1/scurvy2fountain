@@ -59,7 +59,7 @@ becomes
 INT. LIVING ROOM - DAY
 ROB is all alone. Rob cries to himself.
 ```
-The script also converts "(cont)" and "(cont'd)" and a few other variations to "(CONT'D)" for consistency's sake, and it will force a Fountain scene transition (marked with ">") for things like "Cut to:", "Fade out:", "Dissolve:", etc. You can also do this manually (e.g. "> EVERYTHING MELTS:" There's a possibility (i.e. a pretty good chance) that you'll still have to do some final tweaking and editing to the Fountain output script, but for the most part it should convert faithfully.
+The script also converts "(cont)" and "(cont'd)" and a few other variations to "(CONT'D)" for consistency's sake, and it will force a Fountain scene transition (marked with ">") for things like "Cut to:", "Fade out:", "Dissolve:", etc. You can also force this manually in the scurvy input (e.g. "> EVERYTHING MELTS:" There's a possibility (i.e. a pretty good chance) that you'll still have to do some final tweaking and editing to the Fountain output script, but for the most part everything should convert faithfully.
 
 Todo
 ===
@@ -172,7 +172,7 @@ This will create a file.fountain text file.
 
 License
 ===
-You're free to use this pretty much however you want. Make it better and claim it as your own, doesn't really bother me. Give me some credit if you feel like it.
+You're free to use this pretty much however you want. Make it better and claim it as your own, doesn't really bother me. Give me some credit if you feel like it. Also please let me know if something breaks.
 
 Happy writing!
 ===
