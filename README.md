@@ -5,7 +5,7 @@ This is just a super basic Python script I wrote to parse plain text screenplays
 
 To give more detail:
 
-The biggest advantage of writing in scurvy (a sadly little known-about and underappreciated format) is that it lets you use aliases. So you can define an alias like this
+The biggest advantage of writing in scurvy (a sadly widely unheard of and underappreciated format) is that it lets you use aliases. So you can define an alias like this
 ```
 R:=Roger
 ```
