@@ -34,7 +34,7 @@ Extra hacks
 ===
 There are a couple of weird hacks I had to add.
 
-One is the way the comments are handled. Since scurvy comments use "#", they will be converted to the slash-asterisk style comments used in Fountain. Unfortunately, sections in Fountain use "#" as well. So to compensate, use "|#" for a section in your scurvy file (or "|" followed by any number of #'s). This will be converted to "#" in the resulting Fountain output. (This was something I debated even including, and it's a candidate for removal. It would be easier to manually comment with slash-asterisk and use # for sections, and damn the scurvy support. But I digress.)
+One is the way the comments are handled. Since scurvy comments use "#", they will be converted to the slash-asterisk style comments used in Fountain. Unfortunately, sections in Fountain use "#" as well. So to compensate, use "|#" for a section in your scurvy file (or "|" followed by any number of #'s). This will be converted to "#" in the resulting Fountain output. (This was something I debated even including, and it's a candidate for removal. It would be easier to manually comment with slash-asterisk and use # for sections, scurvy support be damned. But I digress.)
 
 To force a new line, use "||". This is for cases when you need to add a separate parenthetical during dialogue. So for instance, if you want
 ```
