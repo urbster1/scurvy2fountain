@@ -1,7 +1,7 @@
 # scurvy2fountain
 Converts scurvy screenplay text file format to Fountain screenplay text file format
 
-This is just a super basic Python script I wrote to parse plain text screenplays written in [scurvy](https://marginalhacks.com/Hacks/scurvy) format created by David Madison to [Fountain](http://fountain.io). It is probably written poorly, because it's the first Python script I've ever written, but it works. (I should note that this is for Python 3.)
+This is just a super basic Python script I wrote to parse plain text screenplays written in the [scurvy format created by David Madison](https://marginalhacks.com/Hacks/scurvy) to [Fountain](http://fountain.io). It is probably written poorly, because it's the first Python script I've ever written, but it works. (I should note that this is for Python 3.)
 
 To give more detail:
 
