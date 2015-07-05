@@ -126,7 +126,7 @@ Gosh darn heck.
 
 Andy hears a DOOR open and loud FOOTSTEPS. TOM (late 20's), wears pajama pants and a t-shirt and has bed head. He walks into the kitchen.
 
-ANDY
+ANDY (CONT'D)
 (grumbles reluctantly)
 Morning.
 
