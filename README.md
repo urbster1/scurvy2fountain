@@ -82,7 +82,7 @@ INT. MESSY KITCHEN - MORNING
 Paper plates, pizza boxes, and paper towels are strewn everywhere. The SINK overflows with dirty dishes. Outside the kitchen window, the sky is grey. One HAND turns on the FAUCET while another holds a glass under it. To fit above the mess of dishes, the glass has to tilt almost entirely sideways. WATER just pours out.
 {!A} (late 20's, average-looking), clean-cut and dressed for work, looks visibly frustrated.
 A: (groans, almost growling) Urghhh...
-The glass is almost totally empty. {A} slowly tilts it like he's going to drink it, but instead peers inside it to watch the water pour out, DRIBBLING onto the floor.
+The glass is almost totally empty. {A} slowly tilts it like he's going to drink it, but instead peers inside it to see the water pour out, DRIBBLING onto the floor.
 Fred (V.O.): (screaming) AAAAHHHHHH!!!!!!
 A: Gosh darn heck.
 {A} hears a DOOR open and loud FOOTSTEPS. {!T} (late 20's), wears pajama pants and a t-shirt and has bed head. He walks into the kitchen.
@@ -115,7 +115,7 @@ ANDY
 (groans, almost growling)
 Urghhh...
 
-The glass is almost totally empty. Andy slowly tilts it like he's going to drink it, but instead peers inside it to watch the water pour out, DRIBBLING onto the floor.
+The glass is almost totally empty. Andy slowly tilts it like he's going to drink it, but instead peers inside it to see the water pour out, DRIBBLING onto the floor.
 
 FRED (V.O.)
 (screaming)
