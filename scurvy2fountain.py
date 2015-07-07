@@ -83,7 +83,7 @@ with open(tempfilename) as newtempfile,  open(outfilename,  'w') as outfile:
 		if iscaps:
 			print('Forcing uppercase...')
 			tline = tline[1:].upper()
-		if tline is not '' or not '\n':
+		if (tline is not '') or (tline is not '\n'):
 			outfile.write(tline + '\n')
 print('Removing tempfile...')
 os.remove(tempfilename)
