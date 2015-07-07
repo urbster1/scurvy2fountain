@@ -63,7 +63,8 @@ with open(tempfilename) as newtempfile,  open(outfilename,  'w') as outfile:
 		if '||' in tline:
 			print('Parsing newline...')
 			tline = tline.replace('||', '\n')
-		if '|#' in tline:
+		issection = tline.startswith('!#')
+		if issection:
 			print('Parsing section...')
 			tline = tline.replace('|#','#')
 		if '\n\n' in tline:
@@ -79,7 +80,7 @@ with open(tempfilename) as newtempfile,  open(outfilename,  'w') as outfile:
 			if c in tline:
 				print("Parsing (CONT'D)...")
 				tline = tline.replace(c,  "CONT'D")
-		iscaps = re.match('!', tline)
+		iscaps = tline.startswith('!')
 		if iscaps:
 			print('Forcing uppercase...')
 			tline = tline[1:].upper()
