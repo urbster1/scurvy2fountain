@@ -1,7 +1,7 @@
 import re, sys, os
 filename = sys.argv[1]
 if '.' in filename:
-	filename = sys.argv[1].split('.')
+	filename = os.path.splitext(filename)
 	filename = filename[0]
 outfilename = filename + '.fountain'
 tempfilename = filename + '.temp'
