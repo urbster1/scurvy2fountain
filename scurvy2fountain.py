@@ -63,7 +63,7 @@ with open(tempfilename) as newtempfile,  open(outfilename,  'w') as outfile:
 		if '||' in tline:
 			print('Parsing newline...')
 			tline = tline.replace('||', '\n')
-		issection = tline.startswith('!#')
+		issection = tline.startswith('|#')
 		if issection:
 			print('Parsing section...')
 			tline = tline.replace('|#','#')
