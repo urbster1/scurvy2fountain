@@ -64,7 +64,7 @@ with open(tempfilename) as newtempfile,  open(outfilename,  'w') as outfile:
 			print('Parsing newline...')
 			tline = tline.replace('||', '\n')
 		if '|#' in tline:
-			print('Parsing scene header...')
+			print('Parsing section...')
 			tline = tline.replace('|#','#')
 		if '\n\n' in tline:
 			print('Eliminating double newline...')
