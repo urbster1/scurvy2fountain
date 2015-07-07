@@ -11,7 +11,6 @@ with open(sys.argv[1], encoding="utf8", errors='replace') as infile, open(tempfi
 	if '\t'in inscurvy:
 		print('Replacing tabs...')
 		inscurvy = inscurvy.replace('\t', ' ')
-	global aliases
 	print('Finding aliases...')
 	aliases = re.findall(r'(\w+):=(.+)', inscurvy)
 	print('Stripping whitespace...')
@@ -22,7 +21,7 @@ with open(sys.argv[1], encoding="utf8", errors='replace') as infile, open(tempfi
 	print('Temp file written.\nParsing tempfile...')
 with open(tempfilename) as newtempfile,  open(outfilename,  'w') as outfile:
 	for tline in newtempfile:
-		iscomment = re.match('#', tline)
+		iscomment = tline.startswith('#')
 		if iscomment:
 			print('Parsing comment...')
 			tline = tline.replace('\n', ' ')
