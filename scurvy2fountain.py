@@ -75,7 +75,7 @@ with open(tempfilename) as newtempfile,  open(outfilename,  'w') as outfile:
 			if t in tline:
 				print('Forcing scene transition...')
 				tline = '> ' + tline.upper()
-		cont = ["cont", "cont'd", "contd", "CONTD", "cont.", "CONT.", "CONT"]
+		cont = ["cont'd", "contd", "CONTD", "cont.", "CONT."]
 		for c in cont:
 			if c in tline:
 				print("Parsing (CONT'D)...")
