@@ -21,6 +21,7 @@ with open(sys.argv[1], encoding="utf8", errors='replace') as infile:
 		flist.append(line)
 	print('Done with first pass.')
 for tline in flist:
+	tlower = tline.lower()
 	iscomment = tline.startswith('#')
 	if iscomment:
 		print('Parsing comment...')
@@ -66,12 +67,12 @@ for tline in flist:
 	if issection:
 		print('Parsing section...')
 		tline = tline.replace('|#','#')
-	tran = ['in:', 'out:', 'dissolve:', 'to:', 'IN:', 'OUT:', 'TO:', 'DISSOLVE:'] 
+	tran = ['in:', 'out:', 'dissolve:', 'to:'] 
 	for t in tran:
-		if t in tline:
+		if t in tlower:
 			print('Forcing scene transition...')
 			tline = '> ' + tline.upper()
-	cont = ["(cont)", "(cont'd)", "(contd)", "(CONTD)", "(cont.)", "(CONT.)", "(CONT)"]
+	cont = ["(cont)", "(cont'd)", "(contd)", "(CONTD)", "(cont.)", "(CONT.)", "(CONT)", "(Cont)"]
 	for c in cont:
 		if c in tline:
 			print("Parsing (CONT'D)...")
@@ -80,9 +81,9 @@ for tline in flist:
 	if iscaps:
 		print('Forcing uppercase...')
 		tline = tline[1:].upper()
-	scraps = ['int.', 'INT.', 'ext.', 'EXT.']
+	scraps = ['int.', 'ext.']
 	for cap in scraps:
-		craps = tline.startswith(cap)
+		craps = tlower.startswith(cap)
 		if craps:
 			print('Forcing uppercase...')
 			tline = tline.upper()
